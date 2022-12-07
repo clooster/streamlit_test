@@ -28,4 +28,4 @@ my_data_row = my_cur.fetchall()
 streamlit.text("This is the fruit load list")
 streamlit.dataframe(my_data_row)
 
-my_cur.execute('insert into fruit_load_list (fruit_name) values (' + streamlit.text_input('Add fruit:') + ');')
+my_cur.execute("insert into fruit_load_list (fruit_name) values ('" + streamlit.text_input('Add fruit:') + "');")
