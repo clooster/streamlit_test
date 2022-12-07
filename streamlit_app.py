@@ -1,3 +1,5 @@
 import streamlit
 
-streamlit.title("Title")
+streamlit.title("Menu")
+streamlit.header("Breakfast Menu")
+streamlit.text("Kale and eggs")
